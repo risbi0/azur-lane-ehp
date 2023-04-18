@@ -8,9 +8,9 @@ st.set_page_config(
     layout='wide',
     menu_items={
         'About': '''
-            ##### lorem ipsum
+            ##### Azur Lane eHP
 
-            Lorem ipsum
+            Data and calculations from Mebot#6604 and website made by Risbiantotri#9712.
         '''
     }
 )
