@@ -39,12 +39,10 @@ st.caption('Lorem ipsum dolor sit amet')
 
 df = pd.read_csv('vg.csv', index_col=[0])
 
-hull_colors = {
-    'dd': '#2c83be',
-    'cl': '#e3a949',
-    'ca': '#ff8134',
-    'cb': '#ff5858',
-    'ae': '#86b341',
+armor_colors = {
+    'light': '#86b341',
+    'medium': '#e3a949',
+    'heavy': '#ff5858',
 }
 
 fig = go.Figure()
@@ -52,7 +50,7 @@ fig = go.Figure()
 for row in df.iterrows():
     name = row[1]['name']
     ehp = row[1]['ehp']
-    hull = row[1]['hull'].lower()
+    armor = row[1]['armor'].lower()
 
     fig.add_trace(
         go.Bar(
@@ -62,14 +60,13 @@ for row in df.iterrows():
             text=ehp,
             textposition='outside',
             hovertemplate=f'{name}, {ehp}',
-            marker=dict(color=hull_colors[hull]),
+            marker=dict(color=armor_colors[armor]),
             showlegend=False,
             name=''
         )
     )
 
 fig.update_layout(
-    #title=dict(text='Vanguard eHP'),
     legend=dict(x=1, xanchor='right', y=0),
     margin=dict(l=0, r=0, t=50, b=0),
     height=9000,
