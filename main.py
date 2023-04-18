@@ -43,7 +43,7 @@ def ordinal_suffix(n):
     else:
         return { 1: 'st', 2: 'nd', 3: 'rd' }.get(n % 10, 'th')
 
-df = pd.read_csv('vg.csv', index_col=[0])
+df = pd.read_csv('data/vg.csv', index_col=[0])
 
 armor_colors = {
     'light': '#86b341',
