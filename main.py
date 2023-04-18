@@ -37,6 +37,12 @@ st.markdown(
 st.markdown('<h4>Vanguard eHP</h4>', unsafe_allow_html=True)
 st.caption('Data is colored by armor type. (Green: Light, Orange: Medium, Heavy: Red)')
 
+def ordinal_suffix(n):
+    if n % 100 in (11, 12, 13):
+        return 'th'
+    else:
+        return { 1: 'st', 2: 'nd', 3: 'rd' }.get(n % 10, 'th')
+
 df = pd.read_csv('vg.csv', index_col=[0])
 
 armor_colors = {
@@ -62,6 +68,7 @@ elif len(df) == 1:
     height = 75
 
 if len(df) > 0:
+	counter = len(df)
 	fig = go.Figure()
 
 	for row in df.iterrows():
@@ -77,12 +84,14 @@ if len(df) > 0:
 				orientation='h',
 				text=ehp,
 				textposition='outside',
-				hovertemplate=f'{name}, {ehp}',
+				hovertemplate=f'{counter}{ordinal_suffix(counter)}, {name}, {ehp}',
 				marker=dict(color=armor_colors[armor]),
 				showlegend=False,
 				name=''
 			)
 		)
+
+		counter -= 1
 
 	fig.update_layout(
 		legend=dict(x=1, xanchor='right', y=0),
