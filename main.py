@@ -4,7 +4,6 @@ import pandas as pd
 
 st.set_page_config(
     page_title='Azur Lane eHP',
-    initial_sidebar_state='collapsed',
     layout='wide',
     menu_items={
         'About': '''
