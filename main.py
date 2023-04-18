@@ -35,7 +35,7 @@ st.markdown(
 )
 
 st.markdown('<h4>Vanguard eHP</h4>', unsafe_allow_html=True)
-st.caption('Lorem ipsum dolor sit amet')
+st.caption('Data is colored by armor type. (Green: Light, Orange: Medium, Heavy: Red)')
 
 df = pd.read_csv('vg.csv', index_col=[0])
 
@@ -45,35 +45,55 @@ armor_colors = {
     'heavy': '#ff5858',
 }
 
-fig = go.Figure()
+col1, col2 = st.columns(2)
+armor_type = col1.selectbox('Armor Type:', ['All', 'Light', 'Medium', 'Heavy'])
+hull_type = col2.selectbox('Hull Type:', ['All', 'DD', 'CL', 'CA', 'CB', 'AE'])
 
-for row in df.iterrows():
-    name = row[1]['name']
-    ehp = row[1]['ehp']
-    armor = row[1]['armor'].lower()
+if armor_type != 'All':
+    df = df[df['armor'] == armor_type]
+if hull_type != 'All':
+    df = df[df['hull'] == hull_type]
 
-    fig.add_trace(
-        go.Bar(
-            x=[ehp],
-            y=[name],
-            orientation='h',
-            text=ehp,
-            textposition='outside',
-            hovertemplate=f'{name}, {ehp}',
-            marker=dict(color=armor_colors[armor]),
-            showlegend=False,
-            name=''
-        )
-    )
+if len(df) >= 10:
+    height = round(len(df) * 21.5)
+elif len(df) <= 9 and len(df) >= 2:
+    height = round(len(df) * 50)
+elif len(df) == 1:
+    height = 75
 
-fig.update_layout(
-    legend=dict(x=1, xanchor='right', y=0),
-    margin=dict(l=0, r=0, t=50, b=0),
-    height=9000,
-    xaxis=dict(visible=False, range=[0, 35000])
-)
+if len(df) > 0:
+	fig = go.Figure()
 
-fig.update_xaxes(fixedrange=True)
+	for row in df.iterrows():
+		name = row[1]['name']
+		ehp = row[1]['ehp']
+		armor = row[1]['armor'].lower()
+		hull = row[1]['hull'].lower()
 
-cols = st.columns([1, 3, 1])
-cols[1].plotly_chart(fig, use_container_width=True)
+		fig.add_trace(
+			go.Bar(
+				x=[ehp],
+				y=[name],
+				orientation='h',
+				text=ehp,
+				textposition='outside',
+				hovertemplate=f'{name}, {ehp}',
+				marker=dict(color=armor_colors[armor]),
+				showlegend=False,
+				name=''
+			)
+		)
+
+	fig.update_layout(
+		legend=dict(x=1, xanchor='right', y=0),
+		margin=dict(l=0, r=0, t=50, b=0),
+		height=height,
+		xaxis=dict(visible=False, range=[0, 35000])
+	)
+
+	fig.update_xaxes(fixedrange=True)
+
+	cols = st.columns([1, 3, 1])
+	cols[1].plotly_chart(fig, use_container_width=True)
+else:
+     st.text('No data available.')
