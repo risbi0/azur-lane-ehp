@@ -51,9 +51,9 @@ armor_colors = {
     'heavy': '#ff5858',
 }
 
-col1, col2 = st.columns(2)
-armor_type = col1.selectbox('Armor Type:', ['All', 'Light', 'Medium', 'Heavy'])
-hull_type = col2.selectbox('Hull Type:', ['All', 'DD', 'CL', 'CA', 'CB', 'AE'])
+cols = st.columns(4)
+armor_type = cols[1].selectbox('Armor Type:', ['All', 'Light', 'Medium', 'Heavy'])
+hull_type = cols[2].selectbox('Hull Type:', ['All', 'DD', 'CL', 'CA', 'CB', 'AE'])
 
 if armor_type != 'All':
     df = df[df['armor'] == armor_type]
