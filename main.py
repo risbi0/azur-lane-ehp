@@ -181,13 +181,13 @@ This means that the weakest enemy with these stats that CAN reliably kill the Pu
 
 Now, we may include auxiliary equipment into the calculation. For most purposes, auxiliary equipment provides $HP$ and $EVA$ stats that will augment the ship's $eHP$. The equipment stats are taken from [here](https://azurlane.koumakan.jp/wiki/List_of_Auxiliary_Equipment#Max_Stats-0).
 
-For DD's, I chose the Repair Toolkit and a 550 HP auxiliary equipment as normal gears to consider.
+- DD - Repair Toolkit + 550 HP auxiliary equipment
 
-For CL's and CA's, I chose the Repair Toolkit and Improved Hydraulic Rudder as normal gears to consider.
+- CL, CA - Repair Toolkit + Improved Hydraulic Rudder
 
-For CB's, I allowed two versions. Both have Improved Hydraulic Rudder, and then either Repair Toolkit or VH Armor.
+- CB - Improved Hydraulic Rudder + Repair Toolkit / VH Armor
 
-For AE's, I gave them three equipment: Repair Toolkit, Improved Hydraulic Rudder, and a 500 HP auxiliary equipment.
+- AE - Repair Toolkit + Improved Hydraulic Rudder + 500 HP auxiliary equipment
 
 All instances of Improved Hydraulic Rudder are in their +13 configuration.
 
@@ -302,7 +302,21 @@ $$
 eHP = 17589.859
 $$
 
-BUT! This is still not yet the final number we see on the chart. THAT one is a regular average of all the $eHP$'s of the different bosses we see in Operation Siren. Namely: Defense Module: Chaser III, Defense Module: Navigator III, Defense Module: Smasher III, Defense Module: Conductor, Enforcer XIV [Equilibrium], Enforcer IX [Concealment], Enforcer VII [Determination], Enforcer IX [Exploration], Enforcer XIV [Harmony], Arbiter: Temperance XIV, Arbiter: The Hermit IX, Arbiter: Strength VIII, and Repulse META.
+BUT! This is still not yet the final number we see on the chart. THAT one is a regular average of all the $eHP$'s of the different bosses we see in Operation Siren. Namely:
+
+- Defense Module: Chaser III
+- Defense Module: Navigator III
+- Defense Module: Smasher III
+- Defense Module: Conductor
+- Enforcer XIV [Equilibrium]
+- Enforcer IX [Concealment]
+- Enforcer VII [Determination]
+- Enforcer IX [Exploration]
+- Enforcer XIV [Harmony]
+- Arbiter: Temperance XIV
+- Arbiter: The Hermit IX
+- Arbiter: Strength VIII
+- Repulse META
 
 I don't have the other META's on here, because I am too lazy to datamine their bullets.
 
