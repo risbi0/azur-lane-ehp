@@ -4,8 +4,8 @@ import numpy as np
 pd.options.mode.chained_assignment = None
 
 df = pd.read_excel('data/eHP2.xlsm', sheet_name='125 V eHP', engine='openpyxl')
-details = pd.read_excel('data/eHP2.xlsm', sheet_name='125 V', engine='openpyxl'
-                        )
+details = pd.read_excel('data/eHP2.xlsm', sheet_name='125 V', engine='openpyxl')
+
 def get_hull(ship_name):
     return details.loc[details['Ship'] == ship_name]['Type'].iloc[0]
 
