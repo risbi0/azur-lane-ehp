@@ -1,422 +1,435 @@
 ,name,armor,ehp,hull
-0,Universal Bulin,Light,3438,DD
-1,Specialized Bulin Custom MKIII,Light,3438,DD
-2,Prototype Bulin MKII,Light,3438,DD
-3,Northampton,Light,7869,CA
-4,Chicago,Light,8036,CA
-5,Fumizuki,Light,8402,DD
-6,Kisaragi (Retrofit),Light,8521,DD
-7,Salt Lake City,Light,8525,CA
-8,Uzuki,Light,8567,DD
-9,Pensacola,Light,8595,CA
-10,Nagatsuki,Light,8608,DD
-11,Mikazuki,Light,8647,DD
-12,Galatea,Light,8729,CL
-13,Naka,Light,8782,CL
-14,Minazuki,Light,8784,DD
-15,Z21,Light,8975,DD
-16,Z18,Light,8994,DD
-17,Z19,Light,9018,DD
-18,Mutsuki (Retrofit),Light,9044,DD
-19,Yamakaze,Light,9068,DD
-20,Wichita,Light,9153,CA
-21,Sendai (Retrofit),Light,9184,CL
-22,Z2,Light,9198,DD
-23,Trento,Light,9223,CA
-24,Hunter,Light,9307,DD
-25,Curlew (Retrofit),Light,9335,CL
-26,McCall,Light,9336,DD
-27,Shiratsuyu,Light,9341,DD
-28,Yura,Light,9360,CL
-29,Curacoa (Retrofit),Light,9366,CL
-30,Z16,Light,9399,DD
-31,Z35,Light,9420,DD
-32,Wakaba,Light,9436,DD
-33,Z36,Light,9446,DD
-34,Kent,Light,9458,CA
-35,Nagara,Light,9482,CL
-36,Lena,Light,9573,CL
-37,Agano,Light,9585,CL
-38,Namiko,Medium,9588,CA
-39,Craven,Light,9591,DD
-40,Z26,Light,9594,DD
-41,Sussex,Light,9599,CA
-42,Miyuki,Light,9619,DD
-43,Kawakaze,Light,9642,DD
-44,Akatsuki,Light,9684,DD
-45,22,Light,9700,DD
-46,Gridley,Light,9708,DD
-47,Arethusa,Light,9713,CL
-48,Spence,Light,9726,DD
-49,Jersey,Light,9729,DD
-50,Shirayuki,Light,9732,DD
-51,Z20,Light,9741,DD
-52,Ying Swei,Medium,9762,CL
-53,Yuugure (Retrofit),Light,9792,DD
-54,Arashio,Light,9807,DD
-55,Asashio,Light,9807,DD
-56,Isokaze,Light,9859,DD
-57,33,Light,9870,DD
-58,Astoria,Medium,9876,CA
-59,Ikazuchi,Light,9905,DD
-60,Atlanta,Light,9950,CL
-61,Shiranui (Retrofit),Light,9952,DD
-62,Yuubari (Retrofit),Light,9974,CL
-63,Kagerou (Retrofit),Light,9990,DD
-64,Umikaze,Light,10033,DD
-65,Suffolk (Retrofit),Light,10036,CA
-66,Z24,Light,10041,DD
-67,Nakiri Ayame,Light,10045,CA
-68,Ooshio,Light,10049,DD
-69,Quincy,Medium,10056,CA
-70,Chao Ho,Medium,10067,CL
-71,Inazuma,Light,10068,DD
-72,Sims (Retrofit),Light,10075,DD
-73,Le Mars (Retrofit),Light,10103,DD
-74,Vincennes,Medium,10111,CA
-75,Urakaze,Light,10120,DD
-76,Trento META,Light,10151,CA
-77,Shropshire (Retrofit),Light,10169,CA
-78,Oite,Light,10175,DD
-79,Aoba,Medium,10210,CA
-80,Maillé Brézé,Light,10227,DD
-81,Z28,Light,10248,DD
-82,Kinu (Retrofit),Light,10269,CL
-83,Kako (Retrofit),Medium,10273,CA
-84,Furutaka (Retrofit),Medium,10273,CA
-85,Dewey,Light,10284,DD
-86,Bush,Light,10299,DD
-87,Hardy,Light,10301,DD
-88,Abukuma (Retrofit),Light,10308,CL
-89,Hunter META,Light,10310,DD
-90,Ariake (Retrofit),Light,10333,DD
-91,Kuroshio,Light,10335,DD
-92,Oyashio,Light,10335,DD
-93,Aurora,Light,10362,CL
-94,Nekone,Light,10383,DD
-95,Foch,Medium,10396,CA
-96,Michishio,Light,10396,DD
-97,Memphis META,Light,10403,CL
-98,Z25,Light,10438,DD
-99,Kinugasa,Medium,10503,CA
-100,Honolulu,Light,10506,CL
-101,Avrora,Medium,10508,CL
-102,Fiji,Light,10521,CL
-103,Le Téméraire,Light,10580,DD
-104,Hammann (Retrofit),Light,10586,DD
-105,Laffey (Retrofit),Light,10593,DD
-106,Kiyonami,Light,10632,DD
-107,Brooklyn,Light,10633,CL
-108,Trieste,Light,10636,CA
-109,Fu Shun,Light,10647,DD
-110,Shirakami Fubuki,Light,10652,DD
-111,Little Spee,Medium,10655,CA
-112,Glowworm,Light,10659,DD
-113,L'Opiniâtre,Light,10701,DD
-114,Marblehead,Light,10705,CL
-115,Hatsuharu (Retrofit),Light,10707,DD
-116,Deutschland,Medium,10708,CA
-117,Echo,Light,10744,DD
-118,Aylwin,Light,10759,DD
-119,Königsberg,Light,10764,CL
-120,White Heart,Light,10767,DD
-121,Makinami,Light,10775,DD
-122,Vampire,Light,10782,DD
-123,Jupiter,Light,10783,DD
-124,Admiral Graf Spee,Medium,10784,CA
-125,Hai Chi,Light,10794,CL
-126,Hobby,Light,10804,DD
-127,London (Retrofit),Light,10815,CA
-128,Ardent (Retrofit),Light,10870,DD
-129,Fubuki,Light,10872,DD
-130,Benson,Light,10874,DD
-131,Houston,Light,10880,CA
-132,Uranami,Light,10892,DD
-133,Morrison,Light,10900,DD
-134,Grenville,Light,10914,DD
-135,Hatsushimo (Retrofit),Light,10923,DD
-136,Aulick,Light,10942,DD
-137,Chang Chun (Retrofit),Light,10970,DD
-138,Cooper,Light,10970,DD
-139,Foxhound (Retrofit),Light,10989,DD
-140,Libeccio,Light,10993,DD
-141,Kitakaze,Light,11000,DD
-142,Achilles (Retrofit),Light,11024,CL
-143,Concord,Light,11042,CL
-144,Memphis,Light,11042,CL
-145,Halsey Powell,Light,11061,DD
-146,Bailey (Retrofit),Light,11067,DD
-147,Li'l Sandy,Light,11076,CL
-148,Carabiniere,Light,11083,DD
-149,Juno,Light,11083,DD
-150,Niizuki,Light,11088,DD
-151,Foote,Light,11108,DD
-152,Crescent (Retrofit),Light,11121,DD
-153,Omaha,Light,11123,CL
-154,Thatcher,Light,11166,DD
-155,Juneau (Retrofit),Light,11174,CL
-156,Richmond,Light,11183,CL
-157,Elbing,Light,11194,CL
-158,Mikuma,Medium,11197,CL
-159,Noire,Medium,11204,CA
-160,York (Retrofit),Medium,11208,CA
-161,Gromky,Light,11217,DD
-162,Penelope,Light,11228,CL
-163,Vincenzo Gioberti,Light,11306,DD
-164,Karlsruhe (Retrofit),Light,11322,CL
-165,Stremitelny,Light,11323,DD
-166,Smalley,Light,11388,DD
-167,Kizuna AI,Light,11415,DD
-168,Kazagumo,Light,11430,DD
-169,Tartu,Light,11434,DD
-170,Hass,Light,11458,CL
-171,Murmansk,Light,11460,CL
-172,Bulldog,Light,11470,DD
-173,Bolzano,Light,11478,CA
-174,Swiftsure,Light,11481,CL
-175,Matsukaze (Retrofit),Light,11540,DD
-176,Suzuya,Medium,11553,CA
-177,Vauquelin,Light,11560,DD
-178,Raleigh,Light,11589,CL
-179,Hazelwood,Light,11604,DD
-180,Jintsuu (Retrofit),Light,11624,CL
-181,San Juan,Light,11637,CL
-182,Natsuiro Matsuri,Light,11640,DD
-183,Ajax (Retrofit),Light,11648,CL
-184,Tanikaze (Retrofit),Light,11648,DD
-185,Grozny,Light,11649,DD
-186,Southampton,Light,11649,CL
-187,Kimberly,Light,11682,DD
-188,Ayanami (Retrofit),Light,11685,DD
-189,Z1 (Retrofit),Light,11694,DD
-190,Hai Tien,Light,11703,CA
-191,Little Cheshire,Medium,11710,CA
-192,Gloucester,Light,11717,CL
-193,Beagle,Light,11719,DD
-194,Nowaki,Light,11733,DD
-195,Hermione,Light,11745,CL
-196,Helena (Retrofit),Light,11763,CL
-197,Leander (Retrofit),Light,11788,CL
-198,St. Louis,Light,11818,CL
-199,Kitakaze (Fate),Light,11828,DD
-200,Marie Rose,Light,11839,DD
-201,Bellona,Light,11889,CL
-202,Gremyashchy,Light,11911,DD
-203,Black Heart,Medium,11917,CA
-204,Musketeer,Light,11919,DD
-205,Baltimore (With CV),Medium,11920,CA
-206,Radford,Light,11927,DD
-207,Isuzu (Retrofit),Light,11936,CL
-208,Kiev,Light,11936,DD
-209,Maury,Light,11945,DD
-210,Yorck,Medium,11953,CA
-211,Le Malin,Light,11959,DD
-212,Jamaica,Light,11961,CL
-213,Bache,Light,11977,DD
-214,Tai Yuan,Light,11988,DD
-215,Ashigara,Medium,11994,CA
-216,Köln (Retrofit),Light,12009,CL
-217,Penelope (Mobbing),Light,12010,CL
-218,Jenkins,Light,12016,DD
-219,Acasta (Retrofit),Light,12020,DD
-220,Black Prince,Light,12053,CL
-221,Kalk,Light,12062,DD
-222,Charles Ausburne (Retrofit),Light,12072,DD
-223,Fortune (Retrofit),Light,12077,DD
-224,Indianapolis,Medium,12079,CA
-225,Hatakaze,Light,12082,DD
-226,Exeter (Retrofit),Medium,12084,CA
-227,Harutsuki,Light,12115,DD
-228,Yoizuki,Light,12116,DD
-229,Harbin,Light,12117,CL
-230,Icarus,Light,12133,DD
-231,Émile Bertin (Retrofit),Light,12139,CL
-232,Sirius,Light,12147,CL
-233,Maestrale,Light,12205,DD
-234,Manchester,Light,12233,CL
-235,Enterprise,Light,12235,CL
-236,Nicholas (Retrofit),Light,12249,DD
-237,Naganami,Light,12262,DD
-238,Hanazuki,Light,12273,DD
-239,Helena META (No Helena),Light,12278,CL
-240,Ritsuko Akizuki,Medium,12287,AE
-241,Matchless,Light,12315,DD
-242,Stanly,Light,12319,DD
-243,Tanikaze (Retrofit) (Alone),Light,12341,DD
-244,Forbin (Retrofit),Light,12361,DD
-245,Boise,Light,12364,CL
-246,Cleveland µ,Light,12396,CL
-247,An Shan (Retrofit),Light,12399,DD
-248,Dorsetshire,Medium,12399,CA
-249,Charybdis,Light,12407,CL
-250,Maya,Medium,12408,CA
-251,Atago,Medium,12408,CA
-252,Emanuele Pessagno,Light,12416,DD
-253,Bremerton (Not Front),Medium,12449,CA
-254,Stephen Potter,Light,12456,DD
-255,Choukai,Medium,12462,CA
-256,Le Triomphant,Light,12485,DD
-257,Comet (Retrofit),Light,12521,DD
-258,Ibuki,Medium,12528,CA
-259,Glasgow,Light,12566,CL
-260,Mogami (Retrofit),Medium,12707,CA
-261,Nachi,Medium,12716,CA
-262,Alfredo Oriani,Light,12759,DD
-263,Baltimore (No CV),Medium,12759,CA
-264,Nürnberg,Light,12767,CL
-265,Sheffield,Light,12784,CL
-266,Magdeburg,Light,12792,CL
-267,Kuon,Medium,12826,CA
-268,Little Bel,Light,12829,CL
-269,Myoukou,Medium,12829,CA
-270,Purple Heart,Light,12837,CL
-271,Reno,Light,12850,CL
-272,Reno (Not Vigilant),Light,12850,CL
-273,Downes (Retrofit),Light,12861,DD
-274,Takao,Medium,12889,CA
-275,Nicoloso da Recco,Light,12893,DD
-276,Baltimore µ,Medium,12898,CA
-277,Hamakaze (Retrofit),Light,12920,DD
-278,Neptune (Neptunia),Light,12930,CL
-279,Kiev (Alone),Light,12937,DD
-280,Cassin (Retrofit),Light,12987,DD
-281,Dido,Light,13014,CL
-282,Kashino,Light,13019,AE
-283,Monica,Light,13023,CL
-284,Norfolk,Medium,13024,CA
-285,Bristol,Light,13032,DD
-286,Amazon (Retrofit),Light,13049,DD
-287,Admiral Hipper µ,Medium,13058,CA
-288,Ibuki (Fate),Medium,13101,CA
-289,Rurutie,Light,13101,CL
-290,Leipzig (Retrofit),Light,13103,CL
-291,Allen M. Sumner,Light,13124,DD
-292,Kumano,Medium,13126,CA
-293,Sheffield µ,Light,13138,CL
-294,Newcastle (Retrofit),Light,13162,CL
-295,Kirov,Light,13183,CL
-296,Eskimo,Light,13215,DD
-297,Minsk,Light,13218,DD
-298,Zara,Medium,13226,CA
-299,Clevelad,Light,13230,CL
-300,San Diego (Retrofit),Light,13273,CL
-301,Blücher,Medium,13314,CA
-302,Edinburgh,Light,13333,CL
-303,Algérie,Medium,13357,CA
-304,Lila Decyrus,Medium,13368,CA
-305,Bremerton (Front),Medium,13378,CA
-306,Blanc,Light,13404,DD
-307,Denver,Light,13449,CL
-308,Z23 (Retrofit) (Z1),Light,13459,DD
-309,Z23 (Retrofit),Light,13459,DD
-310,Kamikaze (Retrofit),Light,13470,DD
-311,Columbia,Light,13483,CL
-312,Cleveland,Light,13517,CL
-313,Birmingham,Light,13560,CL
-314,Chapayev,Light,13582,CL
-315,Hibiki,Light,13588,DD
-316,Biloxi,Light,13608,CL
-317,Biloxi (AA),Light,13613,CL
-318,Shigure (Retrofit),Light,13655,DD
-319,Janus,Light,13671,DD
-320,Mullany,Light,13675,DD
-321,Fletcher,Light,13683,DD
-322,Le Malin µ,Light,13685,DD
-323,Wakatsuki,Light,13747,DD
-324,Emden (CL Gun),Light,13778,CL
-325,Tashkent µ,Light,13865,DD
-326,Tashkent,Light,13869,DD
-327,Elegant Kizuna AI,Medium,13886,CA
-328,Shimakaze,Light,13909,DD
-329,Admiral Hipper,Medium,13915,CA
-330,Dido µ,Light,13927,CL
-331,Dido µ (Mobbing),Light,13931,CL
-332,Minneapolis,Medium,13933,CA
-333,Helena META (With Helena),Light,13946,CL
-334,Z46,Light,13969,DD
-335,Z46 (Z1),Light,13969,DD
-336,Soobrazitelny,Light,14037,DD
-337,Pompeo Magno,Light,14103,DD
-338,Zara (With VV),Medium,14198,CA
-339,Phoenix,Light,14305,CL
-340,San Francisco (Back),Medium,14443,CA
-341,Mainz,Medium,14522,CL
-342,Saint Louis,Medium,14532,CA
-343,Javelin (Retrofit),Light,14589,DD
-344,Pola,Medium,14591,CA
-345,Le Terrible (With DD's),Light,14639,DD
-346,Roon,Medium,14676,CA
-347,Emden (DD Gun),Light,14677,CL
-348,Misaki,Light,14689,CL
-349,Neptune,Light,14695,CL
-350,La Galissonnière,Light,14696,CL
-351,Ingraham,Light,14721,DD
-352,Kasumi (Retrofit),Light,14830,DD
-353,Cygnet (Retrofit),Light,14978,DD
-354,Belfast,Light,15038,CL
-355,Roon µ,Medium,15043,CA
-356,New Orleans,Medium,15093,CA
-357,"Zara (With Pola, VV)",Medium,15104,CA
-358,Zara (With Pola),Medium,15104,CA
-359,Roon (Fate),Medium,15118,CA
-360,Neptune (Fate),Light,15170,CL
-361,Saint Louis (Fate),Medium,15195,CA
-362,Reisalin Stout,Light,15275,CL
-363,Yume Minami,Medium,15542,CA
-364,Azusa Miura,Medium,15583,CA
-365,Pola (With VV),Medium,15617,CA
-366,Le Terrible (No DD's),Light,15631,DD
-367,Seattle,Light,15637,CL
-368,Suzutsuki,Light,15773,DD
-369,Kasumi (Venus Vacation),Medium,15811,CA
-370,Mainz (Fate),Medium,15812,CL
-371,San Francisco (Middle),Medium,15814,CA
-372,Eldridge,Light,15958,DD
-373,Portland (Retrofit),Medium,16070,CA
-374,Cheshire,Medium,16106,CA
-375,Haruka Amami,Light,16136,CL
-376,Seattle (Fate),Light,16140,CL
-377,Sakawa,Light,16153,CL
-378,Haguro,Medium,16193,CA
-379,Little Eugen,Medium,16205,CA
-380,Rikka Takarada,Light,16345,CL
-381,Giuseppe Garibaldi,Light,16459,CL
-382,Azusa Miura (EVAmode),Medium,16564,CA
-383,Prinz Heinrich,Medium,16614,CA
-384,Cheshire (Fate),Medium,16619,CA
-385,Montpelier,Light,16624,CL
-386,Yuudachi (Retrofit),Light,16688,DD
-387,Azuma,Medium,16811,CB
-388,Pamiat Merkuria (Retrofit),Medium,16844,CL
-389,Drake,Medium,17004,CA
-390,Duca degli Abruzzi,Light,17079,Cl
-391,Prinz Adalbert,Medium,17172,CA
-392,San Francisco (Front),Medium,17400,CA
-393,L'Indomptable,Light,17443,DD
-394,Jeanne d'Arc,Light,17569,CL
-395,Yukikaze,Light,17633,DD
-396,Noshiro,Light,17840,CL
-397,Azuma (Fate),Medium,18305,CB
-398,Drake (Fate),Medium,18670,CA
-399,Plymouth,Light,18789,CL
-400,Chikuma,Medium,18872,CA
-401,Kala Ideas,Medium,18934,CB
-402,Prinz Eugen,Medium,19308,CA
-403,Azuma (VH),Heavy,19547,CB
-404,Tallinn,Medium,19708,CA
-405,Kronshtadt,Medium,19949,CB
-406,Brest,Medium,21260,CB
-407,Azuma (VH) (Fate),Heavy,21394,CB
-408,ÄgirHE,Heavy,21571,CB
-409,ÄgirHE (VH),Heavy,21758,CB
-410,Kala Ideas (VH),Heavy,22079,CB
-411,Kronshtadt (VH),Heavy,23348,CB
-412,Brest (VH),Heavy,24807,CB
-413,Yat Sen,Light,24894,CL
-414,Anchorage,Medium,24997,CA
-415,ÄgirAP,Heavy,25377,CB
-416,Jervis,Light,25597,DD
-417,ÄgirAP (VH),Heavy,25598,CB
-418,Anchorage (Fate),Medium,25808,CA
-419,Ping Hai (Retrofit),Light,30886,CL
-420,Ning Hai (Retrofit),Light,32441,CL
+0,Universal Bulin,Light,3043,DD
+1,Prototype Bulin MKII,Light,3043,DD
+2,Specialized Bulin Custom MKIII,Light,3113,DD
+3,Fumizuki,Light,7693,DD
+4,Northampton,Light,7778,CA
+5,Kisaragi (Retrofit),Light,7813,DD
+6,Uzuki,Light,7851,DD
+7,Nagatsuki,Light,7889,DD
+8,Mikazuki,Light,7927,DD
+9,Chicago,Light,7948,CA
+10,Minazuki,Light,8057,DD
+11,Z21,Light,8280,DD
+12,Z18,Light,8298,DD
+13,Mutsuki (Retrofit),Light,8309,DD
+14,Z19,Light,8321,DD
+15,Yamakaze,Light,8330,DD
+16,Hunter,Light,8452,DD
+17,Salt Lake City,Light,8476,CA
+18,Z2,Light,8493,DD
+19,Pensacola,Light,8550,CA
+20,Galatea,Light,8552,CL
+21,Shiratsuyu,Light,8592,DD
+22,McCall,Light,8619,DD
+23,Naka,Light,8629,CL
+24,Wakaba,Light,8680,DD
+25,Z16,Light,8686,DD
+26,Z35,Light,8700,DD
+27,Z36,Light,8724,DD
+28,22,Light,8813,DD
+29,Miyuki,Light,8823,DD
+30,Jersey,Light,8855,DD
+31,Craven,Light,8864,DD
+32,Z26,Light,8865,DD
+33,Kawakaze,Light,8880,DD
+34,Spence,Light,8910,DD
+35,Akatsuki,Light,8916,DD
+36,Shirayuki,Light,8947,DD
+37,33,Light,8971,DD
+38,Gridley,Light,8975,DD
+39,Yuugure (Retrofit),Light,9008,DD
+40,Sendai (Retrofit),Light,9013,CL
+41,Z20,Light,9015,DD
+42,Asashio,Light,9035,DD
+43,Arashio,Light,9035,DD
+44,Isokaze,Light,9087,DD
+45,Trento,Light,9103,CA
+46,Ikazuchi,Light,9127,DD
+47,Shiranui (Retrofit),Light,9157,DD
+48,Yura,Light,9180,CL
+49,Curlew (Retrofit),Light,9185,CL
+50,Curacoa (Retrofit),Light,9187,CL
+51,Le Mars (Retrofit),Light,9190,DD
+52,Kagerou (Retrofit),Light,9208,DD
+53,Ooshio,Light,9267,DD
+54,Umikaze,Light,9274,DD
+55,Inazuma,Light,9284,DD
+56,Nagara,Light,9287,CL
+57,Z24,Light,9292,DD
+58,Oite,Light,9309,DD
+59,Urakaze,Light,9333,DD
+60,Sims (Retrofit),Light,9336,DD
+61,Agano,Light,9379,CL
+62,Kent,Light,9388,CA
+63,Hardy,Light,9394,DD
+64,Lena,Light,9407,CL
+65,Quincy,Medium,9420,CA
+66,Maillé Brézé,Light,9420,DD
+67,Namiko,Medium,9424,CA
+68,Dewey,Light,9436,DD
+69,Bush,Light,9459,DD
+70,Hunter META,Light,9490,DD
+71,Z28,Light,9496,DD
+72,Ying Swei,Medium,9501,CL
+73,Sussex,Light,9519,CA
+74,L'Opiniâtre,Light,9520,DD
+75,Ariake (Retrofit),Light,9524,DD
+76,Oyashio,Light,9539,DD
+77,Kuroshio,Light,9539,DD
+78,Arethusa,Light,9585,CL
+79,Nekone,Light,9597,DD
+80,Michishio,Light,9599,DD
+81,Le Téméraire,Light,9644,DD
+82,Z25,Light,9677,DD
+83,Astoria,Medium,9701,CA
+84,Hammann (Retrofit),Light,9741,DD
+85,Atlanta,Light,9752,CL
+86,Chao Ho,Medium,9773,CL
+87,Laffey (Retrofit),Light,9777,DD
+88,Vampire,Light,9797,DD
+89,Yuubari (Retrofit),Light,9810,CL
+90,Echo,Light,9812,DD
+91,Kiyonami,Light,9822,DD
+92,Jupiter,Light,9851,DD
+93,Shirakami Fubuki,Light,9858,DD
+94,Fu Shun,Light,9866,DD
+95,Hatsuharu (Retrofit),Light,9882,DD
+96,Aylwin,Light,9890,DD
+97,Ardent (Retrofit),Light,9907,DD
+98,Vincennes,Medium,9922,CA
+99,Hobby,Light,9929,DD
+100,Grenville,Light,9945,DD
+101,Aoba,Medium,9953,CA
+102,Makinami,Light,9959,DD
+103,Suffolk (Retrofit),Light,9964,CA
+104,White Heart,Light,9972,DD
+105,Ayanami (Retrofit),Light,9984,DD
+106,Nakiri Ayame,Light,9988,CA
+107,Furutaka (Retrofit),Medium,9990,CA
+108,Fubuki,Light,9995,DD
+109,Benson,Light,9998,DD
+110,Glowworm,Light,10005,DD
+111,Wichita,Light,10012,CA
+112,Morrison,Light,10033,DD
+113,Trento META,Light,10043,CA
+114,Aulick,Light,10067,DD
+115,Cooper,Light,10075,DD
+116,Uranami,Light,10076,DD
+117,Hatsushimo (Retrofit),Light,10089,DD
+118,Shropshire (Retrofit),Light,10098,CA
+119,Kinu (Retrofit),Light,10101,CL
+120,Abukuma (Retrofit),Light,10107,CL
+121,Libeccio,Light,10122,DD
+122,Foxhound (Retrofit),Light,10124,DD
+123,Juno,Light,10137,DD
+124,Kitakaze,Light,10173,DD
+125,Halsey Powell,Light,10177,DD
+126,Foch,Medium,10177,CA
+127,Crescent (Retrofit),Light,10222,DD
+128,Avrora,Medium,10224,CL
+129,Foote,Light,10225,DD
+130,Carabiniere,Light,10239,DD
+131,Fortune META,Light,10252,DD
+132,Aurora,Light,10257,CL
+133,Kinugasa,Medium,10260,CA
+134,Niizuki,Light,10277,DD
+135,Thatcher,Light,10281,DD
+136,Fiji,Light,10284,CL
+137,Memphis META,Light,10287,CL
+138,Bailey (Retrofit),Light,10294,DD
+139,La Galissonnière META,Light,10332,CL
+140,Honolulu,Light,10347,CL
+141,Gromky,Light,10375,DD
+142,Little Spee,Medium,10401,CA
+143,Vincenzo Gioberti,Light,10416,DD
+144,Kako (Retrofit),Medium,10461,CA
+145,Juneau (Retrofit),Light,10462,CL
+146,Bulldog,Light,10467,DD
+147,Brooklyn,Light,10481,CL
+148,Smalley,Light,10494,DD
+149,Stremitelny,Light,10499,DD
+150,Trieste,Light,10508,CA
+151,Deutschland,Medium,10509,CA
+152,Admiral Graf Spee,Medium,10527,CA
+153,Marblehead,Light,10533,CL
+154,Tartu,Light,10536,DD
+155,Kizuna AI,Light,10545,DD
+156,Matsukaze (Retrofit),Light,10563,DD
+157,Königsberg,Light,10564,CL
+158,Kazagumo,Light,10587,DD
+159,Z46,Light,10657,DD
+160,Vauquelin,Light,10659,DD
+161,Hazelwood,Light,10700,DD
+162,London (Retrofit),Light,10702,CA
+163,Beagle,Light,10704,DD
+164,Hero,Light,10727,DD
+165,Chang Chun (Retrofit),Light,10766,DD
+166,Hatakaze,Light,10772,DD
+167,Hai Chi,Light,10779,CL
+168,Tanikaze (Retrofit),Light,10780,DD
+169,Kimberly,Light,10781,DD
+170,Natsuiro Matsuri,Light,10787,DD
+171,York (Retrofit),Medium,10807,CA
+172,Kursk,Light,10823,CA
+173,Z1 (Retrofit),Light,10830,DD
+174,Grozny,Light,10834,DD
+175,Achilles (Retrofit),Light,10870,CL
+176,Memphis,Light,10889,CL
+177,Concord,Light,10889,CL
+178,Nowaki,Light,10890,DD
+179,Houston,Light,10897,CA
+180,Mikuma,Medium,10906,CL
+181,Musketeer,Light,10936,DD
+182,Kitakaze (Fate),Light,10953,DD
+183,Omaha,Light,10959,CL
+184,Li'l Sandy,Light,10981,CL
+185,Marie Rose,Light,10991,DD
+186,Noire,Medium,10996,CA
+187,Acasta (Retrofit),Light,10999,DD
+188,Radford,Light,11007,DD
+189,Richmond,Light,11023,CL
+190,Elbing,Light,11030,CL
+191,Penelope,Light,11047,CL
+192,Le Malin,Light,11048,DD
+193,Maury,Light,11048,DD
+194,Gremyashchy,Light,11051,DD
+195,Bache,Light,11081,DD
+196,Murmansk,Light,11094,CL
+197,Jenkins,Light,11094,DD
+198,Kalk,Light,11095,DD
+199,Z23 (Retrofit),Light,11103,DD
+200,Karlsruhe (Retrofit),Light,11108,CL
+201,Tai Yuan,Light,11139,DD
+202,Icarus,Light,11169,DD
+203,Kuon,Medium,11231,CA
+204,Suzuya,Medium,11262,CA
+205,Harutsuki,Light,11268,DD
+206,Yoizuki,Light,11270,DD
+207,Maestrale,Light,11281,DD
+208,Hass,Light,11283,CL
+209,Swiftsure,Light,11293,CL
+210,Forbin (Retrofit),Light,11306,DD
+211,Matchless,Light,11315,DD
+212,Hammann II,Light,11318,DD
+213,Kiev,Light,11334,DD
+214,Bolzano,Light,11353,CA
+215,Naganami,Light,11354,DD
+216,Jintsuu (Retrofit),Light,11395,CL
+217,Stanly,Light,11396,DD
+218,Little Cheshire,Medium,11397,CA
+219,Nicholas (Retrofit),Light,11409,DD
+220,Mullany,Light,11412,DD
+221,Hanazuki,Light,11422,DD
+222,Emanuele Pessagno,Light,11445,DD
+223,Raleigh,Light,11453,CL
+224,Tanikaze (Retrofit) (Alone),Light,11454,DD
+225,Southampton,Light,11459,CL
+226,Fortune (Retrofit),Light,11478,DD
+227,Comet (Retrofit),Light,11478,DD
+228,Stephen Potter,Light,11499,DD
+229,Gloucester,Light,11513,CL
+230,San Juan,Light,11522,CL
+231,Ajax (Retrofit),Light,11532,CL
+232,An Shan (Retrofit),Light,11538,DD
+233,Hermione,Light,11585,CL
+234,Leander (Retrofit),Light,11610,CL
+235,Hai Tien,Light,11612,CA
+236,Helena (Retrofit),Light,11628,CL
+237,Yorck,Medium,11647,CA
+238,Baltimore (No CV),Medium,11685,CA
+239,St. Louis,Light,11691,CL
+240,Ashigara,Medium,11707,CA
+241,Bellona,Light,11717,CL
+242,Isuzu (Retrofit),Light,11718,CL
+243,Indianapolis,Medium,11779,CA
+244,Alfredo Oriani,Light,11792,DD
+245,Jamaica,Light,11800,CL
+246,Exeter (Retrofit),Medium,11826,CA
+247,Köln (Retrofit),Light,11829,CL
+248,Mogami (Retrofit),Medium,11831,CA
+249,Penelope (Mobbing),Light,11835,CL
+250,Downes (Retrofit),Light,11892,DD
+251,Black Prince,Light,11925,CL
+252,Amazon (Retrofit),Light,11964,DD
+253,Nicoloso da Recco,Light,11964,DD
+254,Hamakaze (Retrofit),Light,11966,DD
+255,Sirius,Light,12001,CL
+256,Manchester,Light,12004,CL
+257,Cassin (Retrofit),Light,12013,DD
+258,Kiev (Alone),Light,12021,DD
+259,Ting An,Light,12022,AE
+260,Sheffield META,Light,12054,CL
+261,Dorsetshire,Medium,12085,CA
+262,Helena META (No Helena),Light,12102,CL
+263,Ibuki,Medium,12113,CA
+264,Eskimo,Light,12130,DD
+265,Bristol,Light,12155,DD
+266,Kumano,Medium,12209,CA
+267,Bremerton (Not Front),Medium,12210,CA
+268,Boise,Light,12224,CL
+269,Charybdis,Light,12238,CL
+270,Allen M. Sumner,Light,12250,DD
+271,Cleveland µ,Light,12255,CL
+272,Minsk,Light,12325,DD
+273,Blanc,Light,12388,DD
+274,Nachi,Medium,12410,CA
+275,Glasgow,Light,12432,CL
+276,Kamikaze (Retrofit),Light,12466,DD
+277,Baltimore (With CV),Medium,12543,CA
+278,Janus,Light,12580,DD
+279,Magdeburg,Light,12594,CL
+280,Hibiki,Light,12599,DD
+281,Fletcher,Light,12628,DD
+282,Le Malin µ,Light,12644,DD
+283,Nürnberg,Light,12646,CL
+284,Sheffield,Light,12647,CL
+285,Reno (Not Vigilant),Light,12672,CL
+286,Reno,Light,12672,CL
+287,Shigure (Retrofit),Light,12677,DD
+288,Baltimore µ,Medium,12686,CA
+289,Ibuki (Fate),Medium,12695,CA
+290,Purple Heart,Light,12711,CL
+291,Kursk (Alone),Light,12733,CA
+292,Norfolk,Medium,12760,CA
+293,Wakatsuki,Light,12762,DD
+294,Little Bel,Light,12763,CL
+295,Neptune (Neptunia),Light,12769,CL
+296,Admiral Hipper µ,Medium,12791,CA
+297,Émile Bertin (Retrofit),Light,12867,CL
+298,Maya,Medium,12902,CA
+299,Monica,Light,12910,CL
+300,Shimakaze,Light,12914,DD
+301,Dido,Light,12920,CL
+302,Leipzig (Retrofit),Light,12928,CL
+303,Rurutie,Light,12939,CL
+304,Tashkent µ,Light,12947,DD
+305,Tashkent,Light,12955,DD
+306,Kirov,Light,12956,CL
+307,Choukai,Medium,12967,CA
+308,Sheffield µ,Light,12990,CL
+309,Zara,Medium,12993,CA
+310,Z46 (Z1),Light,13022,DD
+311,Newcastle (Retrofit),Light,13024,CL
+312,Algérie,Medium,13053,CA
+313,Lila Decyrus,Medium,13066,CA
+314,Le Triomphant,Light,13070,DD
+315,Clevelad,Light,13077,CL
+316,Myoukou,Medium,13077,CA
+317,Edinburgh,Light,13083,CL
+318,Pompeo Magno,Light,13088,DD
+319,Bremerton (Front),Medium,13109,CA
+320,Soobrazitelny,Light,13145,DD
+321,Black Heart,Medium,13152,CA
+322,Blücher,Medium,13166,CA
+323,San Diego (Retrofit),Light,13179,CL
+324,Harbin,Light,13223,CL
+325,Javelin (Retrofit),Light,13233,DD
+326,Denver,Light,13293,CL
+327,Columbia,Light,13329,CL
+328,Birmingham,Light,13354,CL
+329,Scylla,Light,13354,CL
+330,Atago,Medium,13356,CA
+331,Cleveland,Light,13366,CL
+332,Charles Ausburne (Retrofit),Light,13383,DD
+333,Ritsuko Akizuki,Medium,13398,AE
+334,Chapayev,Light,13415,CL
+335,Elegant Kizuna AI,Medium,13416,CA
+336,Biloxi,Light,13433,CL
+337,Enterprise,Light,13442,CL
+338,Biloxi (AA),Light,13446,CL
+339,Northampton II (No CV),Medium,13447,CA
+340,Takao,Medium,13478,CA
+341,Le Terrible (With DD's),Light,13588,DD
+342,Z23 (Retrofit) (Z1),Light,13603,DD
+343,Admiral Hipper,Medium,13630,CA
+344,Ingraham,Light,13640,DD
+345,Emden (CL Gun),Light,13686,CL
+346,Minneapolis,Medium,13694,CA
+347,Helena META (With Helena),Light,13725,CL
+348,Kasumi (Retrofit),Light,13765,DD
+349,Cygnet (Retrofit),Light,13783,DD
+350,Zara (With Pola),Medium,13822,CA
+351,Dido µ,Light,13832,CL
+352,Dido µ (Mobbing),Light,13842,CL
+353,La Galissonnière,Light,13936,CL
+354,Zara (With VV),Medium,13998,CA
+355,Saint Louis,Medium,14098,CA
+356,Mainz,Medium,14113,CL
+357,Emden (DD Gun),Light,14153,CL
+358,Northampton II (Yes CV),Medium,14155,CA
+359,Kashino,Light,14168,AE
+360,Phoenix,Light,14188,CL
+361,San Francisco (Back),Medium,14202,CA
+362,Roon,Medium,14202,CA
+363,Le Terrible (No DD's),Light,14515,DD
+364,Roon µ,Medium,14572,CA
+365,Misaki,Light,14575,CL
+366,Roon (Fate),Medium,14674,CA
+367,Eldridge,Light,14674,DD
+368,Suzutsuki,Light,14755,DD
+369,Saint Louis (Fate),Medium,14774,CA
+370,Neptune (Fate),Light,14881,CL
+371,Neptune,Light,14888,CL
+372,"Zara (With Pola, VV)",Medium,14891,CA
+373,Pola,Medium,14896,CA
+374,Belfast,Light,14980,CL
+375,New Orleans,Medium,14997,CA
+376,Reisalin Stout,Light,15094,CL
+377,Yume Minami,Medium,15221,CA
+378,Seattle,Light,15312,CL
+379,Azusa Miura,Medium,15328,CA
+380,Mainz (Fate),Medium,15397,CL
+381,Pola (With VV),Medium,15423,CA
+382,Kasumi (Venus Vacation),Medium,15475,CA
+383,Yuudachi (Retrofit),Light,15500,DD
+384,San Francisco (Middle),Medium,15545,CA
+385,Cheshire,Medium,15671,CA
+386,Portland (Retrofit),Medium,15748,CA
+387,Seattle (Fate),Light,15838,CL
+388,Kuybyshev,Light,15863,CL
+389,Haguro,Medium,15874,CA
+390,Little Eugen,Medium,15912,CA
+391,Haruka Amami,Light,15981,CL
+392,Sakawa,Light,16061,CL
+393,Rikka Takarada,Light,16101,CL
+394,Cheshire (Fate),Medium,16204,CA
+395,Prinz Heinrich,Medium,16276,CA
+396,Giuseppe Garibaldi,Light,16320,CL
+397,Azusa Miura (EVAmode),Medium,16341,CA
+398,Azuma,Medium,16343,CB
+399,Yukikaze,Light,16415,DD
+400,Montpelier,Light,16449,CL
+401,Pamiat Merkuria (Retrofit),Medium,16476,CL
+402,Drake,Medium,16521,CA
+403,Prinz Adalbert,Medium,16776,CA
+404,Plymouth,Light,16929,CL
+405,Duca degli Abruzzi,Light,17083,Cl
+406,San Francisco (Front),Medium,17123,CA
+407,Jeanne d'Arc,Light,17497,CL
+408,Azuma (Fate),Medium,17788,CB
+409,L'Indomptable,Light,17907,DD
+410,Drake (Fate),Medium,18203,CA
+411,Kala Ideas,Medium,18423,CB
+412,Noshiro,Light,18568,CL
+413,Chikuma,Medium,18705,CA
+414,Prinz Eugen,Medium,18874,CA
+415,Azuma (VH),Heavy,19144,CB
+416,Tallinn,Medium,19365,CA
+417,Kronshtadt,Medium,19647,CB
+418,Voroshilov,Light,19846,CL
+419,Jervis,Light,20173,DD
+420,ÄgirHE (VH),Heavy,20759,CB
+421,Brest,Medium,20808,CB
+422,Azuma (VH) (Fate),Heavy,20880,CB
+423,ÄgirHE,Heavy,21424,CB
+424,Kala Ideas (VH),Heavy,21645,CB
+425,Kronshtadt (VH),Heavy,23134,CB
+426,Anchorage,Medium,24245,CA
+427,Brest (VH),Heavy,24468,CB
+428,Anchorage (Fate),Medium,25082,CA
+429,ÄgirAP (VH),Heavy,25189,CB
+430,ÄgirAP,Heavy,25205,CB
+431,Yat Sen (Retrofit),Light,31440,CL
+432,Ping Hai (Retrofit),Light,33408,CL
+433,Ning Hai (Retrofit),Light,34548,CL
