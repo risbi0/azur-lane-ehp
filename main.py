@@ -111,9 +111,9 @@ $eHP$ is calculated using the equations present [here](https://azurlane.koumakan
 
 $$
 \begin{align*}
-Accuracy = &\ 0.1 + \frac{AttackerHit}{AttackerHit + DefenderEvasion + 2} +\\
-& \frac{AttackerLuck - DefenderLuck + LevelDifference}{1000} +\\
-&AccuracyVsShipTypeSkill - EvasionRateSkill
+Accuracy = &\ 0.1 + \frac{AttackerHit}{AttackerHit + DefenderEvasion + 2} \\
+&\ + \frac{AttackerLuck - DefenderLuck + LevelDifference}{1000} \\
+&\ + AccuracyVsShipTypeSkill - EvasionRateSkill
 \end{align*}
 $$
 
@@ -152,19 +152,24 @@ handwave some stats based on what we see of the enemies.
 
 $$
 AtkHIT = 100
+$$
+$$
 AtkLCK = 25
+$$
+$$
 LvlDiff = 8
 $$
 
 This means that our enemies are level 128, and have $HIT = 100$ and $LCK = 25$. Let's calculate the eHP of a [Purin](https://azurlane.koumakan.jp/wiki/Prototype_Bulin_MKII) with no gear on, against this type of enemy.
 
 $$
-eHP =
-\frac{232}
+\begin{align*}
+eHP =&\ \frac{232}
 {0.1 +
 \frac{100}{100 + 116 + 2} +
-\frac{25 - 100 + 8}{1000}}
-eHP = 471.817
+\frac{25 - 100 + 8}{1000}} \\
+= &\ 471.817
+\end{align*}
 $$
 
 The most intuitive way someone can interpret this number is: "This is how much damage a ship can take before she sinks, including shots missed". Missed in this context is the text that appears over your ship when she “evades” a shot - meaning that the enemy failed their accuracy check.
@@ -200,14 +205,13 @@ So her new HP value is actually $(232 + 500 + 550)(1 + 0.05) = 1346.1$.
 Now, we divide by the accuracy value (unchanged because neither equipment gave $EVA$).
 
 $$
-eHP =
-\frac{1346.1}
+\begin{align*}
+eHP = &\ \frac{1346.1}
 {0.1 +
 \frac{100}{100 + 116 + 2} +
-\frac{25 - 100 + 8}{1000}}
-$$
-$$
-eHP = 2737.558
+\frac{25 - 100 + 8}{1000}} \\
+= &\ 2737.558
+\end{align*}
 $$
 
 Let's calculate the $eHP$ of a slightly (a lot) more complicated setup: 120 [Chikuma](https://azurlane.koumakan.jp/wiki/Chikuma) with Improved Hydraulic Rudder and Repair Toolkit.
@@ -215,13 +219,14 @@ Let's calculate the $eHP$ of a slightly (a lot) more complicated setup: 120 [Chi
 Let's take a look at her skills - pivotal to her $eHP$ is the "All-Obscuring Eye", which gives her 10% $EVARate$ whenever she is slow. She has 20% Damage Reduction, and can have her $EVA$ boosted by 20%. So her $eHP$ currently looks like this:
 
 $$
-eHP =
-\frac{1}{1 - 0.2} ×
+\begin{align*}
+eHP = &\ \frac{1}{1 - 0.2} ×
 \frac{(4392 + 500 + 72)(1 + 0.05)}
 {0.1 +
 \frac{100}{100 + (75 + 49)(1 + 0.2) + 2} +
-\frac{25 - 42 + 8}{1000} - 0.1}
-= 16594.863
+\frac{25 - 42 + 8}{1000} - 0.1} \\
+= &\ 16594.863
+\end{align*}
 $$
 
 The fraction in front is However, it would be wrong to apply all of these buffs to her $eHP$ at once, because the uptime for each of these buffs is not 100%.
@@ -235,28 +240,30 @@ Similarly, her 20% $EVABoost$ is active for 49s. So, her average $EVABoost$ is $
 So, we can update her $eHP$ to be this:
 
 $$
-eHP =
-\frac{1}{1 - 0.02} ×
+\begin{align*}
+eHP = &\ \frac{1}{1 - 0.02} ×
 \frac{(4392 + 500 + 72)(1 + 0.05)}
 {0.1 +
 \frac{100}{100 + (75 + 49)(1 + 0.2 (\frac{49}{90})) + 2} +
 \frac{25 - 42 + 8}{1000} - 0.1
-(\frac{64}{90})}
-= 14787.782
+(\frac{64}{90})} \\
+= &\ 14787.782
+\end{align*}
 $$
 
 Now, we're almost done. The last thing to consider is the Improved Hydraulic Rudder's skill. On seconds 20, 40, 60, and 80, we have a 30% chance to be invulnerable for 2s. We take an average again, which looks like 30% of 8s. We are treating invulnerability as 100% damage reduction. Normally, this would result in the ship being invulnerable, but we only have 100% damage reduction for 30% of 8s. So, the average damage reduction value is $100\% × \frac{30\% × 8s}{90s} = 2.667\%$. This is the final correction we need to do to grab Chikuma's $eHP$:
 
 $$
-eHP =
-\frac{1}{1 - 0.0267} ×
+\begin{align*}
+eHP = &\ \frac{1}{1 - 0.0267} ×
 \frac{1}{1 - 0.02} ×
 \frac{(4392 + 500 + 72)(1 + 0.05)}
 {0.1 +
 \frac{100}{100 + (75 + 49)(1 + 0.2 (\frac{49}{90})) + 2} +
 \frac{25 - 42 + 8}{1000} - 0.1
-(\frac{64}{90})}
-= 15193.447
+(\frac{64}{90})} \\
+= &\ 15193.447
+\end{align*}
 $$
 
 But we're not done yet. (This is not the final number you see on the website.) Depending on the bullet that hits the shipgirl, she may take more or less damage. This is usually seen in an $X/Y/Z$ format, where $X$ is the multiplier to damage done to $Light$ armored targets, Y is the multiplier for Medium armored targets, and $Z$ is the multiplier for Heav armored targets. In this case, our shipgirls are the targets for the bullets fired by the enemies. Enemy bullet modifiers are taken from [here](https://i.imgur.com/pdQxbBT.png).
