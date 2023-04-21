@@ -34,7 +34,7 @@ st.markdown(
 )
 
 st.markdown('<h4>Vanguard eHP</h4>', unsafe_allow_html=True)
-st.caption('Data is colored by armor type. (Green: Light, Orange: Medium, Heavy: Red). Value is the average eHP between 13 enemies. See [below](#documentation) for a detailed explanation.')
+st.caption('Data is colored by armor type. (Green: Light, Orange: Medium, Heavy: Red). Based from lvl 125 stats. Averaged eHP between 13 enemies. See [below](#documentation) for a detailed explanation.')
 
 def ordinal_suffix(n):
     if n % 100 in (11, 12, 13):
