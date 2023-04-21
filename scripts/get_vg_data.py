@@ -12,7 +12,7 @@ def get_hull(ship_name):
 def main():
 	new_df = df[['Ship', 'Armor', 'SORT']]
 	new_df['hull'] = new_df['Ship'].apply(get_hull)
-	new_df['SORT'] = new_df['SORT'].astype(np.int16)
+	new_df['SORT'] = new_df['SORT'].astype(np.int32)
 	new_df.rename(columns={'Ship': 'name', 'Armor': 'armor', 'SORT': 'ehp'}, inplace=True)
 	new_df.sort_values('ehp', inplace=True)
 	new_df.reset_index(drop=True, inplace=True)
