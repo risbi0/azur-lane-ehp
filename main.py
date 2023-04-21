@@ -216,7 +216,7 @@ Let's take a look at her skills - pivotal to her $eHP$ is the "All-Obscuring Eye
 
 $$
 eHP =
-\frac{1}{1 - 0.2}
+\frac{1}{1 - 0.2} ×
 \frac{(4392 + 500 + 72)(1 + 0.05)}
 {0.1 +
 \frac{100}{100 + (75 + 49)(1 + 0.2) + 2} +
@@ -236,7 +236,7 @@ So, we can update her $eHP$ to be this:
 
 $$
 eHP =
-\frac{1}{1 - 0.02}
+\frac{1}{1 - 0.02} ×
 \frac{(4392 + 500 + 72)(1 + 0.05)}
 {0.1 +
 \frac{100}{100 + (75 + 49)(1 + 0.2 (\frac{49}{90})) + 2} +
@@ -249,8 +249,8 @@ Now, we're almost done. The last thing to consider is the Improved Hydraulic Rud
 
 $$
 eHP =
-\frac{1}{1 - 0.0267}
-\frac{1}{1 - 0.02}
+\frac{1}{1 - 0.0267} ×
+\frac{1}{1 - 0.02} ×
 \frac{(4392 + 500 + 72)(1 + 0.05)}
 {0.1 +
 \frac{100}{100 + (75 + 49)(1 + 0.2 (\frac{49}{90})) + 2} +
