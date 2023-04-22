@@ -96,7 +96,7 @@ if len(df) > 0:
 		legend=dict(x=1, xanchor='right', y=0),
 		margin=dict(l=0, r=0, t=50, b=0),
 		height=height,
-		xaxis=dict(visible=False, range=[0, 37000])
+		xaxis=dict(visible=False, range=[0, 41000])
 	)
 
 	fig.update_xaxes(fixedrange=True)
